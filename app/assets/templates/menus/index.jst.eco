@@ -1,0 +1,54 @@
+<h2 class="margin">Admin</h2>
+
+<h3 class="margin">New Menu Item</h3>
+<div class="margin">
+	<form id="new_entry">
+		<input type="text" name="name" id="name" placeholder="Name">
+		<select id="category">
+			<option value="1">antipasti</option>
+			<option value="2">insalate e zuppa</option>
+			<option value="3">pastas</option>
+			<option value="4">house specialties</option>
+		</select>
+		<input type="text" name="description" id="description" placeholder="Description">
+		<input type="text" name="price_large" id="pricelarge" placeholder="Price (large)">
+		<input type="text" name="price_small" id="pricesmall" placeholder="Price (small)">
+		<input type="text" name="wine" id="wine" placeholder="Wine suggestion">
+		<input type="submit" value="Add">
+	</form>
+</div>
+
+<h3 class="margin">Menu</h3>
+<table id="entries" class="margin">
+	<tr>
+		<th></th>
+    <th>Name</th>
+    <th>Category</th>
+    <th>Description</th>
+    <th>Price (large)</th>
+    <th>Price (small)</th>
+    <th>Suggested Wine</th>
+    <th></th>
+  </tr>
+
+</table>
+
+<script type="text/javascript">
+	var fixHelper = function(e, ui) {
+		ui.children().each(function() {
+			$(this).width($(this).width());
+		});
+		return ui;
+	};
+
+	var URL = "/api/menus/sort"
+
+	$('#entries tbody').sortable({
+		helper: fixHelper,
+		axis: 'y',
+		handle: '.handle',
+		update: function() {
+			$.post(URL, $(this).sortable('serialize') )
+		}
+	});
+</script>

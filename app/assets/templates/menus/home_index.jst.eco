@@ -1,0 +1,17 @@
+<div class="head">
+	<img src="/assets/logo-2.png" />
+</div>
+<div class="comp-description padding">
+Bella Luna is an authentic Italian restaurant in downtown Knoxville that serves seasonally-prepared dishes made from the freshest local ingredients.
+</div>
+<div class="separate"></div>
+<div class="details padding">
+	<a href="#">29 East Genesee Street Auburn, 13021</a>
+	<div class="phone">315-258-9441</div>
+	<div class="hours">From Monday through Saturday</div>
+</div>
+<div class="separate"></div>
+<section id="entries" class="menu padding">
+	<h2>Antipasti</h2>
+</section>
+<div class="separate"></div>

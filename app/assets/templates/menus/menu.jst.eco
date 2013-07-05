@@ -1,0 +1,8 @@
+<td><span class="handle">drag</span></td>
+<td><%= @menu.get('name') %></td>
+<td><%= @menu.get('category').name %></td>
+<td><%= @menu.get('description') %></td>
+<td><%= @menu.get('price_large') %></td>
+<td><%= @menu.get('price_small') %></td>
+<td><%= @menu.get('suggested_wine') %></td>
+<td><a href="javascript:;" id="delete">x</a></td>
