@@ -11,7 +11,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery.ui.sortable
 //= require jquery_ujs
 //= require underscore
 //= require backbone
