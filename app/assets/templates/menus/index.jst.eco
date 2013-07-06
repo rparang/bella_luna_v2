@@ -13,7 +13,7 @@
 		<input type="text" name="description" id="description" placeholder="Description">
 		<input type="text" name="price_large" id="pricelarge" placeholder="Price (large)">
 		<input type="text" name="price_small" id="pricesmall" placeholder="Price (small)">
-		<input type="text" name="wine" id="wine" placeholder="Wine suggestion">
+		<input type="text" name="wine" id="wine" placeholder="Suggested wine">
 		<input type="submit" value="Add">
 	</form>
 </div>
