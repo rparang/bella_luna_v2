@@ -1,5 +1,6 @@
 <%= @menu.get('name') %>
-<%= @menu.get('position') %>
 <span class="price">$<%= @menu.get('price_large') %></span>
 <span class="desc"><%= @menu.get('description') %></span>
-<span class="desc wine">suggested wine: <%= @menu.get('suggested_wine') %></span>
+<% if @menu.get('suggested_wine'): %>
+	<span class="desc wine">suggested wine: <%= @menu.get('suggested_wine') %></span>
+<% end %>

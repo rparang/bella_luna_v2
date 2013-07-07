@@ -29,12 +29,13 @@ Bella Luna is an authentic Italian restaurant in downtown Knoxville that serves 
 </div>
 <div class="separate"></div>
 <section id="entries" class="menu padding">
-	<h2 id="antipasti">Antipasti</h2>
-	<h2 id="insalate">Insalate e Zuppa</h2>
-	<h2 id="pastas">Pastas</h2>
-	<h2 id="house">House Specialties</h2>
-	<h2 id="children">Children</h2>
-	<h2 id="dolci">Dolci</h2>
+	<h2 id="smallplates">Small Plates</h2>
+	<h2 id="saladsandsoups">Salads and Soups</h2>
+	<h2 id="italianclassics">Italian Classics</h2>
+	<h2 id="pastaspecialties">Pasta Specialties</h2>
+	<h2 id="signature">Signature Entrees</h2>
+	<h2 id="entrees">Entrees</h2>
+	<h2 id="desserts">Desserts</h2>
 	<h2 id="beverages">Beverages</h2>
 </section>
 <div class="separate"></div>

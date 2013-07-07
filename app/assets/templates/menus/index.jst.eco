@@ -1,16 +1,17 @@
+<a class="margin" id ="home" href="javscript:;">&#8592; Home</a>
 <h2 class="margin">Admin</h2>
-
 <h3 class="margin">New Menu Item</h3>
 <div class="margin">
 	<form id="new_entry">
 		<input type="text" name="name" id="name" placeholder="Name">
 		<select id="category">
-			<option value="Antipasti">Antipasti</option>
-			<option value="Insalate e Zuppa">Insalate e Zuppa</option>
-			<option value="Pastas">Pastas</option>
-			<option value="House Specialties">House Specialties</option>
-			<option value="Children">Children</option>
-			<option value="Dolci">Dolci</option>
+			<option value="Small Plates">Small Plates</option>
+			<option value="Salads and Soups">Salads and Soups</option>
+			<option value="Italian Classics">Italian Classics</option>
+			<option value="Pasta Specialties">Pasta Specialties</option>
+			<option value="Signature Entrees">Signature Entrees</option>
+			<option value="Entrees">Entrees</option>
+			<option value="Desserts">Desserts</option>
 			<option value="Beverages">Beverages</option>
 		</select>
 		<input type="text" name="description" id="description" placeholder="Description">

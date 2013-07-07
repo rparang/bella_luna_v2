@@ -5,6 +5,7 @@ class BellaLunaV2.Views.MenusIndex extends Backbone.View
 
   events:
     'submit #new_entry': 'createEntry'
+    'click #home':  'goHome'
 
   initialize: ->
     @collection.on('reset', @render, this)
@@ -41,3 +42,7 @@ class BellaLunaV2.Views.MenusIndex extends Backbone.View
         console.log(data)
         view = new BellaLunaV2.Views.Menu({id: 'menu_'+entry.get('id'), model: data})
         this.$('#entries').append(view.render().el)
+
+  goHome: (e) ->
+    e.preventDefault()
+    Backbone.history.navigate("/", true)
