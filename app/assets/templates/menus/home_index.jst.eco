@@ -14,18 +14,16 @@
 <div class="head">
 	<img src="/assets/logo-2.png" />
 </div>
-<div class="comp-description padding">
-Bella Luna is an authentic Italian restaurant in downtown Knoxville that serves seasonally-prepared dishes made from the freshest local ingredients.
-</div>
+<div class="comp-description padding">Bella Luna is an authentic Italian restaurant in downtown Knoxville that serves seasonally-prepared dishes made from the freshest local ingredients.</div>
 
 <div class="fb-like" data-href="https://www.facebook.com/pages/Bella-Luna-Restaurant/112371618847312" data-send="false" data-layout="button_count" data-width="70" data-show-faces="false" data-font="lucida grande"></div>
 <div class="twitter"><a href="https://twitter.com/BellaLunaKnox" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @BellaLunaKnox</a></div>
 
 <div class="separate"></div>
 <div class="details padding">
-	<a href="#">29 East Genesee Street Auburn, 13021</a>
-	<div class="phone">315-258-9441</div>
-	<div class="hours">From Monday through Saturday</div>
+	<a href="#">15 Market Square, Knoxville, TN 37902</a>
+	<div class="phone">865-247-7405</div>
+	<div class="hours">Mon to Thu:&nbsp;&nbsp;12pm - 9pm<br />Fri to Sat:&nbsp;&nbsp;12pm - 10pm<br />Sun:&nbsp;&nbsp;4pm - 9pm</div>
 </div>
 <div class="separate"></div>
 <section id="entries" class="menu padding">
