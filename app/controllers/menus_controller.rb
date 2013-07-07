@@ -3,12 +3,7 @@ class MenusController < ApplicationController
 
   def index
     @menus = Menu.order("position")
-    respond_with @menus.to_json(:include => { :category => { :only => :name }}) #.order("position")
-    #respond_to do |format|
-    #  format.json do
-    #    render :json => @menus.to_json(:include => [:category])
-    #  end
-    #end
+    respond_with @menus.to_json(:include => { :category => { :only => :name }})
   end
 
   def show
@@ -17,7 +12,8 @@ class MenusController < ApplicationController
   end
 
   def create
-    respond_with Menu.create(params[:menu])
+    @category = Category.find_by_name(params[:category_name])
+    respond_with Menu.create(params[:menu].merge(:category_id => @category.id))
   end
 
   def update

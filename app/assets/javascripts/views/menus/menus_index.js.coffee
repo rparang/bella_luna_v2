@@ -23,7 +23,7 @@ class BellaLunaV2.Views.MenusIndex extends Backbone.View
     event.preventDefault()
     attributes = 
       'name': $('#name').val()
-      'category_id': $('#category').val()
+      'category_name': $('#category').val()
       'description': $('#description').val()
       'price_large': $('#pricelarge').val()
       'price_small': $('#pricesmall').val()
@@ -31,7 +31,7 @@ class BellaLunaV2.Views.MenusIndex extends Backbone.View
     @collection.create attributes,
       wait: true
       success: ->
-        $('#new_entry').children().val('')
+        $('#new_entry').children().not("#category, #add").val('')
 
   updateEntry: (entry) ->
     entry_id = entry.get('id')

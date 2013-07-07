@@ -230,3 +230,27 @@ select {
   color: #777;
   cursor: move;
 }
+
+.fb-like, .twitter{
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.fb-like {
+  margin-left: 20px;
+}
+
+.bottom-margin {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+}
+
+.copyright {
+  font-family: "Anonymous Pro";
+  color: darken($dark, 10%);
+  font-size: 11px;
+  margin-bottom: 12px;
+}

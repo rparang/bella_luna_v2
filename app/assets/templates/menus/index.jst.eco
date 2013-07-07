@@ -5,16 +5,19 @@
 	<form id="new_entry">
 		<input type="text" name="name" id="name" placeholder="Name">
 		<select id="category">
-			<option value="1">antipasti</option>
-			<option value="2">insalate e zuppa</option>
-			<option value="3">pastas</option>
-			<option value="4">house specialties</option>
+			<option value="Antipasti">Antipasti</option>
+			<option value="Insalate e Zuppa">Insalate e Zuppa</option>
+			<option value="Pastas">Pastas</option>
+			<option value="House Specialties">House Specialties</option>
+			<option value="Children">Children</option>
+			<option value="Dolci">Dolci</option>
+			<option value="Beverages">Beverages</option>
 		</select>
 		<input type="text" name="description" id="description" placeholder="Description">
 		<input type="text" name="price_large" id="pricelarge" placeholder="Price (large)">
 		<input type="text" name="price_small" id="pricesmall" placeholder="Price (small)">
 		<input type="text" name="wine" id="wine" placeholder="Suggested wine">
-		<input type="submit" value="Add">
+		<input type="submit" id="add" value="Add">
 	</form>
 </div>
 

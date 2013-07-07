@@ -1,9 +1,26 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=159667994218816";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+</script>
+
 <div class="head">
 	<img src="/assets/logo-2.png" />
 </div>
 <div class="comp-description padding">
 Bella Luna is an authentic Italian restaurant in downtown Knoxville that serves seasonally-prepared dishes made from the freshest local ingredients.
 </div>
+
+<div class="fb-like" data-href="https://www.facebook.com/pages/Bella-Luna-Restaurant/112371618847312" data-send="false" data-layout="button_count" data-width="70" data-show-faces="false" data-font="lucida grande"></div>
+<div class="twitter"><a href="https://twitter.com/BellaLunaKnox" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @BellaLunaKnox</a></div>
+
 <div class="separate"></div>
 <div class="details padding">
 	<a href="#">29 East Genesee Street Auburn, 13021</a>
@@ -12,6 +29,14 @@ Bella Luna is an authentic Italian restaurant in downtown Knoxville that serves 
 </div>
 <div class="separate"></div>
 <section id="entries" class="menu padding">
-	<h2>Antipasti</h2>
+	<h2 id="antipasti">Antipasti</h2>
+	<h2 id="insalate">Insalate e Zuppa</h2>
+	<h2 id="pastas">Pastas</h2>
+	<h2 id="house">House Specialties</h2>
+	<h2 id="children">Children</h2>
+	<h2 id="dolci">Dolci</h2>
+	<h2 id="beverages">Beverages</h2>
 </section>
 <div class="separate"></div>
+<div class="copyright padding">Copyright © 2013 Bella Luna. Simple. Modern. Italian.</div>
+<div class="bottom-margin"></div>
